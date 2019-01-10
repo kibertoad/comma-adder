@@ -1,0 +1,23 @@
+{
+  "name": "comma-adder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier": "prettier --write \"lib/**/*.js\""
+  },
+  "dependencies": {
+    "commander": "^2.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.15.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
